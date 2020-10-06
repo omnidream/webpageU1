@@ -3,21 +3,3 @@ h1, h2, h3, h4, h5, h6
     font-size: 200px;
 }
 
-nav ul li
-{
-    display: inline-block;
-}
-
-nav ul
-{
-    text-align: right;
-    display: flex;
-    justify-content: space-around;
-}
-
-#nisse
-{
-font-size:30px;
-}
-
-

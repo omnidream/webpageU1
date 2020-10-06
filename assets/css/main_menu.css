@@ -1,38 +1,34 @@
-
 .top-level-menu
 {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    
 }
 
 .top-level-menu > li
 {
-    height: 30px;
+    display: flex;
+    justify-content: space-around;
 }
 
-.top-level-menu li:hover > ul
-{
-    display: space-around;
-}
 
 .top-level-menu a
 {
     font: bold 14px Arial, Helvetica, sans-serif;
     color: #000000;
-    padding: 0 0 0 100px;
-    display: space-around;
+    text-decoration: none;
+    padding: 0 0 0 10px;
+    display: block;
+    line-height: 30px;
 }
+
+.top-level-menu a:hover { color: #000000a1; }
 
 .second-level-menu
 {
     list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
 }
 
-.second-level-menu > li
-{
-    position: relative;
-    height: 30px;
-}
-.second-level-menu, .top-level-menu, .top-level-menu > li:hover { color: #000000a1; }
+
 
