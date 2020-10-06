@@ -1,0 +1,38 @@
+
+.top-level-menu
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top-level-menu > li
+{
+    height: 30px;
+}
+
+.top-level-menu li:hover > ul
+{
+    display: space-around;
+}
+
+.top-level-menu a
+{
+    font: bold 14px Arial, Helvetica, sans-serif;
+    color: #000000;
+    padding: 0 0 0 100px;
+    display: space-around;
+}
+
+.second-level-menu
+{
+    list-style: none;
+}
+
+.second-level-menu > li
+{
+    position: relative;
+    height: 30px;
+}
+.second-level-menu, .top-level-menu, .top-level-menu > li:hover { color: #000000a1; }
+
