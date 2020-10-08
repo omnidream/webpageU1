@@ -1,34 +1,42 @@
 .top-level-menu
 {
-    
-}
-
-.top-level-menu > li
-{
     display: flex;
     justify-content: space-around;
 }
 
-
-.top-level-menu a
+.top-level-menu > li
 {
-    font: bold 14px Arial, Helvetica, sans-serif;
-    color: #000000;
-    text-decoration: none;
-    padding: 0 0 0 10px;
-    display: block;
-    line-height: 30px;
+
 }
 
-.top-level-menu a:hover { color: #000000a1; }
+.top-level-menu > li:hover { }
+
+.top-level-menu li:hover > ul
+{
+    display: inline;
+}
+
+.top-level-menu a 
+{
+    font: bold 14px Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #000000;
+    padding: 0 0 0 10px;
+    display: block;
+}
+
+.top-level-menu a:hover { color: #000000; }
 
 .second-level-menu
 {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    position: absolute;
     display: none;
 }
 
+.second-level-menu > li
+{
+   
+}
 
+.second-level-menu > li:hover { display: inline; }
 
