@@ -8,11 +8,9 @@ h1, h2, h3, h4, h5, h6
   
     background-image: url("/assets/img/hero.jpg");
     height: 50%;
-    background-position: center;
+    background-position: cover;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
   }
   
   .hero-text {
