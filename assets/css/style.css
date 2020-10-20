@@ -15,11 +15,57 @@ h1, h2, h3, h4, h5, h6
   
   #hero-text {
     text-align: left;
-    position: absolute;
     font-size: 75px;
     text-shadow: 2px 2px 10px #2b2b2b;
     line-height: 0.5;
     
     color: white;
   }
+
+
+
+/* MENY */
+
+.top-level-menu
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-level-menu > li
+{
+
+}
+
+.top-level-menu > li:hover { }
+
+.top-level-menu li:hover > ul
+{
+    display: inline;
+}
+
+.top-level-menu a 
+{
+    font: bold 14px Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #000000;
+    padding: 0 0 0 10px;
+    display: block;
+}
+
+.top-level-menu a:hover { color: #000000; }
+
+.second-level-menu
+{
+    position: absolute;
+    display: none;
+    background-color: rgba(66, 66, 66, 0.75);
+    box-shadow: 10px 5px 5px rgba(211, 211, 211, 0.5);
+    padding: 0rem 1rem 1rem 1rem;
+}
+
+.second-level-menu li
+{
+  margin-top: 10px;
+}
 
