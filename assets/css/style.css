@@ -4,7 +4,7 @@ h1, h2, h3, h4, h5, h6
     margin: 20px;
 }
 
-.hero-image {
+#hero-image {
   
     background-image: url("/assets/img/hero.jpg");
     height: 50%;
@@ -13,12 +13,13 @@ h1, h2, h3, h4, h5, h6
     background-size: cover;
   }
   
-  .hero-text {
-    text-align: center;
+  #hero-text {
+    text-align: left;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    font-size: 75px;
+    text-shadow: 2px 2px 10px #2b2b2b;
+    line-height: 0.5;
+    
     color: white;
   }
 
