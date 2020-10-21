@@ -2,14 +2,24 @@
     box-sizing: border-box;
   }
 
-  h3
-  {
-      
-  }
-
-.nav-img-h1
+h1, h2, h3, h4, h5, h6
 {
+    margin-top: 0.5rem;
     font-family: 'Oswald', sans-serif;
+}
+
+h3
+{
+    line-height: 1.6rem;
+    font-size: 24px;
+}
+
+p
+{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.2rem;
+    font-size: 14px;
+    margin-top: 0.5rem;
 }
 
 #hero-image 
@@ -20,7 +30,7 @@
 #logo
 {
     height: auto;
-    width: 90px;
+    width: 80px;
     margin: 1rem 0rem 1rem 1rem;
     float: left;
 }
@@ -61,9 +71,10 @@
 .nav-image 
 {
     width: 100%;
-    border-radius: 2rem 0.2rem 0.2rem 0.2rem;
+    border-radius: 5rem 0.8rem 0.8rem 0.8rem;
     border: 8px solid #FFFFFF;
     box-shadow:  0px 0px 8px 2px rgba(0, 0, 0, 0.52);
+    margin-top: 1.3rem;
 }
 
   
