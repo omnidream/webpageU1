@@ -137,6 +137,7 @@ a
     max-height: 400px;
     margin-bottom: 1rem;
     margin-top: 1rem;
+    opacity: 1.2;
 }
 
 .img-article-full
@@ -167,6 +168,23 @@ blockquote:before
 .img-article-medium-onlylargescreens
 {
     display: none;
+}
+
+.img-full-bg
+{
+    background-image: url("/assets/img/aurora-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.article-white-bg
+{
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    background-size: contain;
+    
 }
 
 
